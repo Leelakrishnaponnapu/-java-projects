@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+ <display-name>webappforCURRENTBILL</display-name>
+  <welcome-file-list>
+    <welcome-file>bill.html</welcome-file>
+   
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ElectricityBill</display-name>
+    <servlet-name>ElectricityBill</servlet-name>
+    <servlet-class>ElectricityBill</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ElectricityBill</servlet-name>
+    <url-pattern>/ElectricityBill</url-pattern>
+  </servlet-mapping>
+</web-app>
